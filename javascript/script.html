@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="script.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div class="container d-flex flex-column">
+        <div class="cart-block row shadow">
+            <div class="cover ml-5">
+                <h2>Cart(2 Item)</h2>
+            </div>
+            <div class="shirt col-lg-6 col-md-6 col-11 mx-auto">
+                <div class="shirt-div">
+                    <img src="images/452.jpg" class="image-fluid" alt="">
+                </div>
+            </div>
+            <div class="description col-lg-6 col-md-6 col-11 mt-lg-0 mt-md-0 mt-5 mx-auto">
+                <div class="row">
+                    <div class="col-lg-8 col-8">
+                        <h3>Blue Zara shirt</h3>
+                        <div class="pro d-flex flex-column pb-3">
+                            <span> Shirt:blue</span>
+                            <span>color:blue</span>
+                            <span>Size:M</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 d-flex justify-content-end">
+                        <div class="inc-button mx-auto">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                  <li class="page-item"><input type="button" class="page-link"  id="sub" value="-" style="color: blue; font-size: larger;" /></li>
+                                  <li class="page-item"><input type="text" class="page-link" name="quantity" id="dis" value="1" maxlength="2" max="10"
+                                    size="1" id="number" /></li>
+                                  <li class="page-item"><input type="button" style="color: blue; "class="page-link" id="add" value="+" /></a></li>
+                                </ul>
+                              </nav>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row ">
+                    <div class="col-lg-12 col-12 d-flex justify-content-between mt-lg-5">
+                    <div>
+                        <span><img src="https://img.icons8.com/carbon-copy/20/000000/filled-trash.png"/>remove item</span>
+                    </div>
+                    <div>
+                        <span><img src="https://img.icons8.com/ios/20/000000/hearts--v1.png"/>favourite item</span>
+                    </div>
+                    <div>
+                        <p id="rupe">$16</p>
+                    </div> 
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+        <div class="cart-block row shadow mt-lg-5 mt-5">
+
+            <div class="shirt col-lg-6 col-md-6 col-11 mx-auto">
+                <div class="shirt-div">
+                    <img src="images/White_Back_Sweater_Mockup.jpg" class="image-fluid" alt="">
+                </div>
+            </div>
+            <div class="description col-lg-6 col-md-6 col-11 mt-lg-0 mt-md-0 mt-5 mx-auto">
+                <div class="row">
+                    <div class="col-lg-8 col-8">
+                        <h3>Blue Zara shirt</h3>
+                        <div class="pro d-flex flex-column pb-3">
+                            <span> Shirt:blue</span>
+                            <span>color:blue</span>
+                            <span>Size:M</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 d-flex justify-content-end">
+                        <div class="inc-button mx-auto">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                  <li class="page-item"><input type="button" class="page-link"  id="sub" value="-" style="color: blue; font-size: larger;" /></li>
+                                  <li class="page-item"><input type="text" class="page-link" name="quantity" id="dis" value="1" maxlength="2" max="10"
+                                    size="1" id="number" /></li>
+                                  <li class="page-item"><input type="button" style="color: blue; "class="page-link" id="add" value="+" /></a></li>
+                                </ul>
+                              </nav>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row ">
+                    <div class="col-lg-12 col-12 d-flex justify-content-between mt-lg-5">
+                    <div>
+                        <span><img src="https://img.icons8.com/carbon-copy/20/000000/filled-trash.png"/>remove item</span>
+                    </div>
+                    <div>
+                        <span><img src="https://img.icons8.com/ios/20/000000/hearts--v1.png"/>favourite item</span>
+                    </div>
+                    <div>
+                        <p id="rupe">$16</p>
+                    </div> 
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+        <!-- <div class=" cart-block1 row shadow">
+            <div class="shirt col-lg-4 col-md-3 col-6">
+                <div class="shirt-div">
+                    <img src="images/White_Back_Sweater_Mockup.jpg" class="image-fluid" alt="">
+                </div>
+            </div>
+            <div class="description col-lg-5 col-md-4 col-6">
+                <h3>Blue Zara shirt</h3>
+                <div class="pro d-flex flex-column">
+                    <span> Shirt-blue</span>
+                    <span>color-blue</span>
+                    <span>Size-M</span>
+                </div>
+                <div class="fav d-flex justify-content-between">
+                    <div>
+                        <span><img src="https://img.icons8.com/carbon-copy/20/000000/filled-trash.png"/>remove item</span>
+                    </div>
+                    <div>
+                        <span><img src="https://img.icons8.com/ios/20/000000/hearts--v1.png"/>favourite item</span>
+                    </div>
+                </div>
+            </div>
+            <div class="increament col-lg-3">
+                <div class="inc-button">
+                    <input type="button" class="btn" onclick="decrementValue1()" value="-" />
+                    <input type="text"  class="txt"name="quantity" value="1" maxlength="2" max="10" size="1" id="number1" />
+                    <input type="button" class="btn" onclick="incrementValue1()" value="+" />
+                </div>
+                <h5>$43</h5>
+            </div>
+        </div> -->
+        <div class="calc">
+            <input type="button" value="calculate" id="calcv">
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

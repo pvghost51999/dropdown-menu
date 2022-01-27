@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    
+}
+.cart-block{
+
+width: 100%
+
+
+
+    
+}
+.cover{
+    margin-left: 0%;
+}
+/* .cart-block1{
+   
+    box-shadow: 0 10px 19px 2px rgba(0, 0, 0, 0.5);
+    
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 8%;
+} */
+
+.shirt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.shirt-div{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+  
+}
+.shirt-div img{
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.shirt-div img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+/* .description{
+    border:2px solid red;
+
+} */
+
+/* .fav{
+    margin-top: 5%;
+} */
+.pro{
+
+    padding-bottom: 5%;
+}
+
+.btn{
+    background-color: lightgrey;
+}
+.txt{
+    text-align: center;
+    height: 36px;
+}
+/* .inc-button{
+    width: 50px;
+    display: flex;
+    align-items: flex-start;
+    padding-top:5%;
+} */
+
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 4%; */
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.description .row{
+    width: 100%;;
+    justify-content: space-between;
+}
+.calc input{
+background-color: rgb(43, 123, 189);
+}
+.page-link { line-height: 16px; width: 45px; font-size: 1rem; display: flex; justify-content: center; align-items: center; color: #495057; } .page-item input { line-height: 22px; padding: 3px; font-size: 15px; display: flex; justify-content: center; align-items: center; text-align: center; } .page-link:hover { text-decoration: none; color: #495057; outline: none !important; } .page-link:focus { box-shadow: none; }

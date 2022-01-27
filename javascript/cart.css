@@ -1,0 +1,25 @@
+.card-body{
+
+    width: 50%;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 20%;
+    color: rgb(108, 186, 231);
+    margin-top: 2%;
+    color: white;
+}
+
+#drop{
+    width: 20px;
+    height: 20px;
+}
+.collapse{
+    height: 100%;
+}
+.card{
+   
+    border-radius: 0%;
+    height: 100%;
+}
